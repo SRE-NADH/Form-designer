@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+
+ <header>
+   <h1>Form designer</h1>
+   <button id="save">Save</button>
+ </header>
+
+<div class="main-body">
+
+ <div class="side-bar">
+   <h2>Components</h2>
+   <div class="component-container">
+      <div id="input">Input  <span onclick="handleClick('input','Sample Label','Sample text')" >+</span></div>
+      <div id="select">Select <span onclick="handleClick('select','Select',['Sample option','Sample Option1', 'Sample option2'])">+</span></div>
+      <div id="textarea">Textarea <span onclick="handleClick('textarea','Text area','Sample Placeholder')">+</span> </div>
+   </div>
+ </div>
+
+ <div class="container">
+     <div class="form-container">
+      <!-- <div class="item">
+        <div> 
+          <p>Sample Label</p>
+           <p style="cursor: pointer;"><i class="fa-solid fa-trash"></i></p>
+        </div>
+        <input placeholder="sample text"></input>
+      </div>
+
+      <div class="item">
+        <div> 
+          <p>Select</p>
+           <p style="cursor: pointer;"><i class="fa-solid fa-trash"></i></p>
+        </div>
+        <select  >
+            <option value="" disabled selected hidden>Choose an option</option>
+        </select>
+      </div>
+
+      <div class="item">
+        <div> 
+          <p>Text area</p>
+           <p style="cursor: pointer;"><i class="fa-solid fa-trash"></i></p>
+        </div>
+       <textarea placeholder="Sample Placeholder" name="" id=""  rows="3"></textarea>
+      </div> -->
+
+     </div>
+ </div>
+
+</div>
+
+<script src="https://kit.fontawesome.com/8698dc1579.js" crossorigin="anonymous"></script>  
+<script src="script.js"></script>   
+</body>
+</html>
